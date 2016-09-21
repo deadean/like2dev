@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SampleSQLite" x:Class="SampleSQLite.SampleSQLitePage">
+	<Grid Padding="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<Label Grid.Row="0" Text="CRUD operations with SQLite"/>
+
+		<Button Grid.Row="1" Text="Create" Clicked="Handle_Clicked_Create"/>
+		<StackLayout Orientation="Horizontal" Grid.Row="2" IsVisible="false" x:Name="ctrAddContainer">
+			<Entry x:Name="ctrNewItem" Placeholder="Add new text..." />
+			<Button Text="Save" Clicked="Handle_Clicked_Save"/>
+		</StackLayout>
+
+		<ListView Grid.Row="3" x:Name="ctrListView" ItemTemplate="{StaticResource keyItemTemplate}"/>
+			
+
+	</Grid>
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<DataTemplate x:Key="keyItemTemplate">
+				<ViewCell>
+					<StackLayout Orientation="Horizontal">
+						<Label Text="{Binding Name}" VerticalOptions="Center"/>
+						<Button Text="Delete" Command="{Binding DeleteCommand}"/>
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+</ContentPage>

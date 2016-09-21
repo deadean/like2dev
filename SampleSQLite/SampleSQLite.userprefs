@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{01A7B048-289D-4D57-BABF-78B4FF419250}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleSQLite/InfoItem.cs">
+    <Files>
+      <File FileName="iOS/SQLiteConnector.cs" Line="35" Column="17" />
+      <File FileName="SampleSQLite/ISQLiteConnector.cs" Line="8" Column="36" />
+      <File FileName="Droid/SQLiteConnector.cs" Line="15" Column="4" />
+      <File FileName="SampleSQLite/SampleSQLitePage.xaml.cs" Line="33" Column="1" />
+      <File FileName="SampleSQLite/InfoItem.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleSQLite.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA78F95E-3770-48FA-A620-1B158CEF7C15" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/aleksandrsmyk/Projects/SampleSQLite/SampleSQLite/InfoItem.cs" line="17" column="15" />
+      <Breakpoint file="/Users/aleksandrsmyk/Projects/SampleSQLite/SampleSQLite/SampleSQLitePage.xaml.cs" line="51" column="4" />
+      <Breakpoint file="/Users/aleksandrsmyk/Projects/SampleSQLite/SampleSQLite/SampleSQLitePage.xaml.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SampleSQLite.Droid PreferredExecutionTarget="Android.192.168.57.101:5555" />
+</Properties>
